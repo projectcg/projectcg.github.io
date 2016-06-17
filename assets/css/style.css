@@ -396,6 +396,11 @@ csmall2 {
 	margin-bottom: 40px;
 }
 
+.padding-small {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .badge-theme {
 	background: #008000;
 }
