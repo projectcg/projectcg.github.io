@@ -224,19 +224,19 @@ a:focus {
 }
 
 #headerwrap .img-responsive {
-	margin: 0 auto;
+
 }
 
 /* Services Wrap */
 #service {
 	margin-top: 100px;
-	margin-bottom: 80px;
+	margin-bottom: 30px;
 }
 
 #service i {
 	color: #008000;
 	font-size: 60px;
-	padding: 15px;
+	padding: 5px;
 }
 
 /* Portfolio Wrap */
@@ -394,6 +394,11 @@ csmall2 {
 .spacing {
 	margin-top: 40px;
 	margin-bottom: 40px;
+}
+
+.padding-small {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .badge-theme {
