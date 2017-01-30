@@ -1,7 +1,7 @@
 (function($) {
 
 // nav bar active links
-  $(".nav a").on("click", function(){
+  $("body").on("click", ".nav a" function(){
    $(".nav").find(".active").removeClass("active");
    $(this).parent().addClass("active");
   });
