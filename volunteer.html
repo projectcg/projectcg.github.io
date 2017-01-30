@@ -159,9 +159,9 @@
   	<script src="assets/js/custom.js"></script>
     <script>
         $(document).ready(function() {
-          $("body").on("click", ".nav a" function(){
-           $(".nav").find(".active").removeClass("active");
-           $(this).parent().addClass("active");
+          $(".nav a").on("click", function(){
+            $(".nav").find(".active").removeClass("active");
+            $(this).parent().addClass("active");
           });
         });
     </script>
