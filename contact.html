@@ -185,7 +185,14 @@
 	<script src="assets/js/jquery.prettyPhoto.js"></script>
   	<script src="assets/js/jquery.isotope.min.js"></script>
   	<script src="assets/js/custom.js"></script>
-
+    <script>
+        $(document).ready(function() {
+          $("body").on("click", ".nav a" function(){
+           $(".nav").find(".active").removeClass("active");
+           $(this).parent().addClass("active");
+          });
+        });
+    </script>
 
   </body>
 </html>

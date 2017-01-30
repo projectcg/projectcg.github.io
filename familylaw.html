@@ -50,7 +50,7 @@
             <li><a href="about.html">ABOUT</a></li>
             <li><a href="services.html">SERVICES</a></li>
             <li><a href="volunteer.html">VOLUNTEER</a></li>
-            <li><a href="contact.html">CONTACT</a></li>  
+            <li><a href="contact.html">CONTACT</a></li>
             <li><a href="donations.html">DONATIONS</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -182,7 +182,14 @@
 	<script src="assets/js/jquery.prettyPhoto.js"></script>
   	<script src="assets/js/jquery.isotope.min.js"></script>
   	<script src="assets/js/custom.js"></script>
-
+    <script>
+        $(document).ready(function() {
+          $("body").on("click", ".nav a" function(){
+           $(".nav").find(".active").removeClass("active");
+           $(this).parent().addClass("active");
+          });
+        });
+    </script>
 
     <script>
 // Portfolio
