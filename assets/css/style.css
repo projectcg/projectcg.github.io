@@ -198,7 +198,7 @@ a:focus {
 
 .hline-w {
 	border-bottom: 2px solid #ffffff;
-	margin-bottom: 25px;
+	margin-bottom: 10px;
 }
 /*	################################################################
 	SITE WRAPS
@@ -340,18 +340,25 @@ a:focus {
 	background: #004d00;
 }
 
+
 #footerwrap p {
 	color: #fff;
 }
 
-#footerwrap h4 {
+#footerwrap h4, h6 {
 	color: white;
 }
 
-#footerwrap i {
-	font-size: 30px;
+#footerwrap li > a {
+	font-size: 14px;
 	color: #fff;
-	padding-right: 25px;
+}
+
+#footerwrap i {
+	font-size: 14px;
+	color: #fff;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #footerwrap i:hover {
