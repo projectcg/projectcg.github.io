@@ -46,10 +46,11 @@ p {
 	margin-top: 10px;
 }
 
+
 img {
 	height: auto;
 	max-width: 100%;
-}
+} 
 
 a {
 	padding: 0;
@@ -419,6 +420,10 @@ csmall2 {
   padding-bottom: 40px;
 }
 
+.mt-small {
+	margin-top: 15px;
+}
+
 .badge-theme {
 	background: #008000;
 }
@@ -481,4 +486,9 @@ csmall2 {
 .share i {
 	padding-right: 15px;
 	font-size: 18px;
+}
+
+.hopLogo {
+	max-width: 200px;
+	max-height: auto;
 }
