@@ -408,8 +408,9 @@ a.pageLinks {
 	margin-left: 15px;
 }
 
-.resourceAnswer, p, ul , li {
-	margin-left: 20px;
+
+ul.resourceList  {
+	margin-left: 35px;
 }
 
 .ctitle {
