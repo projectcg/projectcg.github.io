@@ -395,6 +395,23 @@ a.pageLinks {
 	margin-left: 15px;
 }
 
+.sectionTopic {
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+.resourceQuestion {
+	font-size: 18px;
+}
+
+.resourceAnswer {
+	margin-left: 15px;
+}
+
+.resourceAnswer, p, ul , li {
+	margin-left: 20px;
+}
+
 .ctitle {
 	color: #008000;
 	font-weight: 700;
@@ -422,6 +439,10 @@ csmall2 {
 
 .mt-small {
 	margin-top: 15px;
+}
+
+.mt-med {
+	margin-top: 25px;
 }
 
 .badge-theme {
