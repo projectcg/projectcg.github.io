@@ -83,6 +83,35 @@ a:focus {
 	text-align: center
 }
 
+.center-block {
+	margin-top: 200px;
+	height: 400px;
+  position: relative;
+  border: 3px solid green; 
+}
+
+.center-block h1 {
+	margin: 0;
+	position: absolute;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 150px !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-block p {
+	text-align: center;
+	margin: 0;
+	position: absolute;
+	font-family: sans-serif;
+	font-size: 20px !important;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+}
+
 /*	################################################################
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
